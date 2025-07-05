@@ -157,3 +157,41 @@ Todas estas rutas requieren un **Access Token válido** en el encabezado `Author
     * **Rol Requerido:** `user`, `admin` (Un usuario normal solo puede eliminar sus propias tareas; un administrador puede eliminar cualquier tarea).
 
 ## Estructura del Proyecto
+.
+├── src/
+│   ├── config/             # Configuración de la aplicación (DB, JWT, Logger)
+│   │   ├── db.js
+│   │   ├── jwt.js
+│   │   └── logger.js
+│   ├── controllers/        # Lógica de negocio para cada ruta
+│   │   ├── auth.controller.js
+│   │   └── task.controller.js
+│   ├── middlewares/        # Middlewares (autenticación, autorización, manejo de errores, validación)
+│   │   ├── auth.middleware.js
+│   │   ├── errorHandler.js     # Manejador de errores centralizado
+│   │   ├── role.middleware.js  # Para verificar roles de usuario
+│   │   └── validate.middleware.js # Para validación de datos de entrada
+│   ├── models/             # Esquemas de Mongoose para la base de datos
+│   │   ├── User.js
+│   │   └── Task.js
+│   ├── routes/             # Definición de rutas de la API
+│   │   ├── auth.routes.js
+│   │   └── task.routes.js
+│   ├── app.js              # Archivo principal de la aplicación Express
+│   └── utils/              # Utilidades varias (ej. validaciones, hashing)
+│       └── validationSchemas.js
+├── tests/                  # Pruebas (unitarias, integración)
+│   ├── integration/
+│   │   └── auth.test.js
+│   ├── unit/
+│   │   └── utils.test.js
+│   └── setup.js
+├── .env.example            # Ejemplo de archivo de variables de entorno
+├── .gitignore              # Archivos y directorios a ignorar por Git
+├── package.json            # Metadatos del proyecto y dependencias
+├── package-lock.json       # Información detallada de dependencias
+├── combined.log            # Archivo de log combinado (generado en tiempo de ejecución)
+├── error.log               # Archivo de log de errores (generado en tiempo de ejecución)
+├── eslint.config.mjs       # Configuración de ESLint (linter)
+└── README.md               # Documentación del proyecto
+

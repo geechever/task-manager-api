@@ -1,0 +1,323 @@
+2025-07-03 23:37:00 [[32minfo[39m]: Server running on port 3000
+2025-07-03 23:37:30 [[31merror[39m]: MongooseServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+    at _handleConnectionErrors (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\connection.js:816:11)
+    at NativeConnection.openUri (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\connection.js:791:11)
+    at async connectDB (C:\Users\GEjr\OneDrive\Desktop\API\src\config\db.js:6:5)
+2025-07-03 23:38:36 [[32minfo[39m]: Server running on port 3000
+2025-07-03 23:39:06 [[31merror[39m]: MongooseServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+    at _handleConnectionErrors (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\connection.js:816:11)
+    at NativeConnection.openUri (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\connection.js:791:11)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:549:9)
+    at process.processTimers (node:internal/timers:523:7)
+    at async connectDB (C:\Users\GEjr\OneDrive\Desktop\API\src\config\db.js:6:5)
+2025-07-04 14:21:04 [[32minfo[39m]: Server running on port 3000
+2025-07-04 14:21:34 [[31merror[39m]: MongooseServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+    at _handleConnectionErrors (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\connection.js:1165:11)
+    at NativeConnection.openUri (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\connection.js:1096:11)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:549:9)
+    at process.processTimers (node:internal/timers:523:7)
+    at async connectDB (C:\Users\GEjr\OneDrive\Desktop\API\src\config\db.js:6:5)
+2025-07-04 14:36:39 [[32minfo[39m]: Server running on port 3000
+2025-07-04 14:36:39 [[32minfo[39m]: MongoDB Connected...
+2025-07-04 14:36:56 [[32minfo[39m]: Server running on port 3000
+2025-07-04 14:36:56 [[32minfo[39m]: MongoDB Connected...
+2025-07-04 14:38:18 [[32minfo[39m]: [0mGET /api/auth/register [33m404[0m 2.290 ms - 156[0m
+2025-07-04 14:38:58 [[32minfo[39m]: [0mGET /api/auth/register [33m404[0m 1.034 ms - 156[0m
+2025-07-04 14:41:03 [[32minfo[39m]: [0mGET /api/auth/register [33m404[0m 0.364 ms - 156[0m
+2025-07-04 14:41:04 [[32minfo[39m]: [0mGET /api/auth/register [33m404[0m 0.483 ms - 156[0m
+2025-07-04 14:42:20 [[32minfo[39m]: [0mPOST /api/auth/register [32m201[0m 88.450 ms - 513[0m
+2025-07-04 14:43:23 [[32minfo[39m]: [0mGET /api/auth/register [33m404[0m 0.373 ms - 156[0m
+2025-07-04 14:43:23 [[32minfo[39m]: [0mGET /api/auth/register [33m404[0m 0.331 ms - 156[0m
+2025-07-04 14:43:25 [[32minfo[39m]: [0mGET /api/auth/register [33m404[0m 0.401 ms - 156[0m
+2025-07-04 14:44:32 [[32minfo[39m]: [0mGET /api/auth/login [33m404[0m 0.449 ms - 153[0m
+2025-07-04 14:44:34 [[32minfo[39m]: [0mGET /api/auth/login [33m404[0m 0.577 ms - 153[0m
+2025-07-04 14:45:04 [[32minfo[39m]: [0mPOST /api/auth/login [32m200[0m 64.827 ms - 513[0m
+2025-07-04 14:45:49 [[32minfo[39m]: [0mGET /api/tasks [33m401[0m 0.510 ms - 37[0m
+2025-07-04 14:45:49 [[32minfo[39m]: [0mGET /favicon.ico [33m404[0m 0.316 ms - 150[0m
+2025-07-04 14:46:47 [[31merror[39m]: JWT Verification Error:
+2025-07-04 14:46:47 [[32minfo[39m]: [0mPOST /api/tasks [33m401[0m 1.066 ms - 38[0m
+2025-07-04 14:50:06 [[31merror[39m]: JWT Verification Error:
+2025-07-04 14:50:06 [[32minfo[39m]: [0mPOST /api/tasks [33m401[0m 1.741 ms - 38[0m
+2025-07-04 14:50:32 [[32minfo[39m]: [0mPOST /api/auth/login [32m200[0m 63.008 ms - 513[0m
+2025-07-04 14:52:41 [[31merror[39m]: JWT Verification Error:
+2025-07-04 14:52:41 [[32minfo[39m]: [0mPOST /api/tasks [33m401[0m 1.395 ms - 38[0m
+2025-07-04 14:53:44 [[31merror[39m]: JWT Verification Error:
+2025-07-04 14:53:44 [[32minfo[39m]: [0mPOST /api/tasks [33m401[0m 1.095 ms - 38[0m
+2025-07-04 14:54:19 [[32minfo[39m]: [0mPOST /api/auth/login [32m200[0m 62.257 ms - 513[0m
+2025-07-04 14:54:47 [[31merror[39m]: JWT Verification Error:
+2025-07-04 14:54:47 [[32minfo[39m]: [0mPOST /api/tasks [33m401[0m 1.066 ms - 38[0m
+2025-07-04 14:55:19 [[32minfo[39m]: [0mGET /api/auth/login [33m404[0m 0.343 ms - 153[0m
+2025-07-04 14:55:32 [[32minfo[39m]: [0mPOST /api/auth/login [32m200[0m 63.490 ms - 513[0m
+2025-07-04 14:57:43 [[31merror[39m]: JWT Verification Error:
+2025-07-04 14:57:43 [[32minfo[39m]: [0mPOST /api/tasks [33m401[0m 0.539 ms - 38[0m
+2025-07-04 14:58:22 [[32minfo[39m]: [0mPOST /api/auth/login [32m200[0m 62.620 ms - 513[0m
+2025-07-04 14:58:28 [[32minfo[39m]: [0mPOST /api/auth/login [32m200[0m 62.428 ms - 513[0m
+2025-07-04 14:58:43 [[32minfo[39m]: [0mPOST /api/auth/login [32m200[0m 63.821 ms - 513[0m
+2025-07-04 15:00:03 [[32minfo[39m]: [0mPOST /api/auth/login [32m200[0m 63.514 ms - 513[0m
+2025-07-04 15:00:06 [[32minfo[39m]: [0mPOST /api/auth/login [32m200[0m 62.280 ms - 513[0m
+2025-07-04 15:00:10 [[32minfo[39m]: [0mPOST /api/auth/login [32m200[0m 61.004 ms - 513[0m
+2025-07-04 15:00:55 [[31merror[39m]: JWT Verification Error:
+2025-07-04 15:00:55 [[32minfo[39m]: [0mPOST /api/tasks [33m401[0m 0.510 ms - 38[0m
+2025-07-04 15:01:30 [[32minfo[39m]: [0mPOST /api/auth/login [32m200[0m 62.126 ms - 513[0m
+2025-07-04 15:01:54 [[32minfo[39m]: [0mPOST /api/auth/login [32m200[0m 61.497 ms - 513[0m
+2025-07-04 15:02:03 [[32minfo[39m]: [0mPOST /api/auth/login [32m200[0m 61.019 ms - 513[0m
+2025-07-04 15:02:52 [[32minfo[39m]: [0mPOST /api/auth/login [32m200[0m 61.627 ms - 513[0m
+2025-07-04 15:04:35 [[32minfo[39m]: [0mPOST /api/tasks [32m201[0m 4.552 ms - 279[0m
+2025-07-04 15:05:11 [[32minfo[39m]: [0mGET /api/tasks [32m200[0m 8.507 ms - 348[0m
+2025-07-04 15:05:16 [[32minfo[39m]: [0mGET /api/tasks [32m200[0m 5.320 ms - 348[0m
+2025-07-04 15:05:39 [[31merror[39m]: CastError: Cast to ObjectId failed for value "<ID_DE_TU_TAREA>" (type string) at path "_id" for model "Task"
+    at SchemaObjectId.cast (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\query.js:5055:12)
+    at Query._castConditions (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\query.js:2351:10)
+    at model.Query._findOne (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\query.js:2674:8)
+    at model.Query.exec (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\query.js:4604:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getTaskById (C:\Users\GEjr\OneDrive\Desktop\API\src\controllers\task.controller.js:43:18)
+2025-07-04 15:05:39 [[31merror[39m]: CastError: Cast to ObjectId failed for value "<ID_DE_TU_TAREA>" (type string) at path "_id" for model "Task"
+    at SchemaObjectId.cast (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\query.js:5055:12)
+    at Query._castConditions (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\query.js:2351:10)
+    at model.Query._findOne (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\query.js:2674:8)
+    at model.Query.exec (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\query.js:4604:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getTaskById (C:\Users\GEjr\OneDrive\Desktop\API\src\controllers\task.controller.js:43:18)
+2025-07-04 15:05:39 [[32minfo[39m]: [0mGET /api/tasks/%3CID_DE_TU_TAREA%3E [31m500[0m 3.970 ms - 133[0m
+2025-07-04 15:06:08 [[31merror[39m]: CastError: Cast to ObjectId failed for value "<686825c35c4965d0c207795d>" (type string) at path "_id" for model "Task"
+    at SchemaObjectId.cast (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\query.js:5055:12)
+    at Query._castConditions (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\query.js:2351:10)
+    at model.Query._findOne (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\query.js:2674:8)
+    at model.Query.exec (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\query.js:4604:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getTaskById (C:\Users\GEjr\OneDrive\Desktop\API\src\controllers\task.controller.js:43:18)
+2025-07-04 15:06:08 [[31merror[39m]: CastError: Cast to ObjectId failed for value "<686825c35c4965d0c207795d>" (type string) at path "_id" for model "Task"
+    at SchemaObjectId.cast (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\query.js:5055:12)
+    at Query._castConditions (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\query.js:2351:10)
+    at model.Query._findOne (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\query.js:2674:8)
+    at model.Query.exec (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\query.js:4604:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getTaskById (C:\Users\GEjr\OneDrive\Desktop\API\src\controllers\task.controller.js:43:18)
+2025-07-04 15:06:08 [[32minfo[39m]: [0mGET /api/tasks/%3C686825c35c4965d0c207795d%3E [31m500[0m 2.900 ms - 143[0m
+2025-07-04 15:06:16 [[31merror[39m]: CastError: Cast to ObjectId failed for value "<686825c35c4965d0c207795d>" (type string) at path "_id" for model "Task"
+    at SchemaObjectId.cast (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\query.js:5055:12)
+    at Query._castConditions (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\query.js:2351:10)
+    at model.Query._findOne (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\query.js:2674:8)
+    at model.Query.exec (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\query.js:4604:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getTaskById (C:\Users\GEjr\OneDrive\Desktop\API\src\controllers\task.controller.js:43:18)
+2025-07-04 15:06:16 [[31merror[39m]: CastError: Cast to ObjectId failed for value "<686825c35c4965d0c207795d>" (type string) at path "_id" for model "Task"
+    at SchemaObjectId.cast (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\query.js:5055:12)
+    at Query._castConditions (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\query.js:2351:10)
+    at model.Query._findOne (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\query.js:2674:8)
+    at model.Query.exec (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\mongoose\lib\query.js:4604:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getTaskById (C:\Users\GEjr\OneDrive\Desktop\API\src\controllers\task.controller.js:43:18)
+2025-07-04 15:06:16 [[32minfo[39m]: [0mGET /api/tasks/%3C686825c35c4965d0c207795d%3E [31m500[0m 2.940 ms - 143[0m
+2025-07-04 15:07:06 [[32minfo[39m]: [0mGET /api/tasks/686825c35c4965d0c207795d [32m200[0m 4.534 ms - 346[0m
+2025-07-04 15:07:20 [[32minfo[39m]: [0mGET /api/tasks/686825c35c4965d0c207795d [32m200[0m 3.990 ms - 346[0m
+2025-07-04 15:07:57 [[32minfo[39m]: [0mGET /api/tasks/686825c35c4965d0c207795d [33m401[0m 0.223 ms - 37[0m
+2025-07-04 15:07:57 [[32minfo[39m]: [0mGET /favicon.ico [33m404[0m 0.420 ms - 150[0m
+2025-07-05 14:57:06 [[32minfo[39m]: Server running on port 3000
+2025-07-05 14:57:06 [[32minfo[39m]: MongoDB Connected...
+2025-07-05 14:59:02 [[32minfo[39m]: Server running on port 3000
+2025-07-05 14:59:02 [[32minfo[39m]: MongoDB Connected...
+2025-07-05 14:59:23 [[32minfo[39m]: Server running on port 3000
+2025-07-05 14:59:23 [[32minfo[39m]: MongoDB Connected...
+2025-07-05 14:59:50 [[32minfo[39m]: [0mPOST /api/auth/login [32m200[0m 91.562 ms - 513[0m
+2025-07-05 15:00:37 [[32minfo[39m]: [0mPOST /api/tasks [32m201[0m 10.519 ms - 285[0m
+2025-07-05 15:01:47 [[32minfo[39m]: [0mGET /api/tasks [32m200[0m 11.594 ms - 701[0m
+2025-07-05 15:03:39 [[32minfo[39m]: [0mGET /api/tasks/686825c35c4965d0c207795d [32m200[0m 5.471 ms - 346[0m
+2025-07-05 15:05:23 [[32minfo[39m]: [0mGET /api/tasks [33m401[0m 0.285 ms - 37[0m
+2025-07-05 15:05:23 [[32minfo[39m]: [0mGET /api/tasks/686825c35c4965d0c207795d [33m401[0m 0.439 ms - 37[0m
+2025-07-05 15:05:23 [[32minfo[39m]: [0mGET /favicon.ico [33m404[0m 1.064 ms - 150[0m
+2025-07-05 15:07:15 [[32minfo[39m]: [0mPUT /api/tasks/686825c35c4965d0c207795d [32m200[0m 6.408 ms - 294[0m
+2025-07-05 15:09:41 [[32minfo[39m]: [0mDELETE /api/tasks/686825c35c4965d0c207795d [33m403[0m 2.653 ms - 49[0m
+2025-07-05 15:11:15 [[32minfo[39m]: [0mPOST /api/auth/register [32m201[0m 67.076 ms - 508[0m
+2025-07-05 15:13:48 [[32minfo[39m]: [0mPOST /api/auth/login [32m200[0m 62.344 ms - 508[0m
+2025-07-05 15:13:54 [[32minfo[39m]: [0mPOST /api/auth/login [32m200[0m 62.040 ms - 508[0m
+2025-07-05 15:14:45 [[32minfo[39m]: [0mDELETE /api/tasks/686825c35c4965d0c207795d [33m401[0m 0.217 ms - 37[0m
+2025-07-05 15:15:37 [[32minfo[39m]: [0mPOST /api/auth/login [32m200[0m 60.884 ms - 508[0m
+2025-07-05 15:16:57 [[32minfo[39m]: [0mDELETE /api/tasks/686825c35c4965d0c207795d [32m200[0m 6.229 ms - 39[0m
+2025-07-05 15:33:14 [[32minfo[39m]: Server running on port 3000
+2025-07-05 15:33:14 [[32minfo[39m]: MongoDB Connected...
+2025-07-05 15:36:31 [[32minfo[39m]: Server running on port 3000
+2025-07-05 15:36:31 [[32minfo[39m]: MongoDB Connected...
+2025-07-05 15:37:44 [[32minfo[39m]: [0mPOST /api/auth/register [32m201[0m 92.172 ms - 503[0m
+2025-07-05 15:38:06 [[32minfo[39m]: [0mPOST /api/auth/register [33m400[0m 3.319 ms - 46[0m
+2025-07-05 15:38:52 [[31merror[39m]: TypeError: user.comparePassword is not a function
+    at login (C:\Users\GEjr\OneDrive\Desktop\API\src\controllers\auth.controller.js:65:36)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-05 15:38:52 [[31merror[39m]: TypeError: user.comparePassword is not a function
+    at login (C:\Users\GEjr\OneDrive\Desktop\API\src\controllers\auth.controller.js:65:36)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-07-05 15:38:52 [[32minfo[39m]: [0mPOST /api/auth/login [31m500[0m 3.640 ms - 68[0m
+2025-07-05 15:42:30 [[32minfo[39m]: Server running on port 3000
+2025-07-05 15:42:30 [[32minfo[39m]: MongoDB Connected...
+2025-07-05 15:42:55 [[32minfo[39m]: Server running on port 3000
+2025-07-05 15:42:55 [[32minfo[39m]: MongoDB Connected...
+2025-07-05 15:43:01 [[32minfo[39m]: [0mPOST /api/auth/login [32m200[0m 86.805 ms - 508[0m
+2025-07-05 15:45:34 [[32minfo[39m]: [0mPOST /api/auth/login [32m200[0m 63.764 ms - 503[0m
+2025-07-05 15:48:24 [[32minfo[39m]: [0mPOST /api/auth/login [32m200[0m 62.786 ms - 503[0m
+2025-07-05 15:48:58 [[32minfo[39m]: [0mGET /api/tasks [32m200[0m 5.818 ms - 2[0m
+2025-07-05 15:49:21 [[32minfo[39m]: [0mGET /api/tasks [32m200[0m 4.327 ms - 2[0m
+2025-07-05 15:53:40 [[32minfo[39m]: [0mPOST /api/auth/login [32m200[0m 62.748 ms - 503[0m
+2025-07-05 15:57:28 [[32minfo[39m]: [0mGET /api/tasks [32m200[0m 3.640 ms - 2[0m
+2025-07-05 15:57:53 [[32minfo[39m]: [0mGET /api/tasks [32m200[0m 3.077 ms - 2[0m
+2025-07-05 15:57:55 [[32minfo[39m]: [0mGET /api/tasks [32m200[0m 3.286 ms - 2[0m
+2025-07-05 16:01:57 [[32minfo[39m]: [0mGET /api/tasks [32m200[0m 3.655 ms - 2[0m
+2025-07-05 16:05:44 [[32minfo[39m]: Server running on port 3000
+2025-07-05 16:05:44 [[32minfo[39m]: MongoDB Connected...
+2025-07-05 16:06:15 [[32minfo[39m]: Server running on port 3000
+2025-07-05 16:06:15 [[32minfo[39m]: MongoDB Connected...
+2025-07-05 16:06:19 [[32minfo[39m]: Server running on port 3000
+2025-07-05 16:06:19 [[32minfo[39m]: MongoDB Connected...
+2025-07-05 16:06:40 [[32minfo[39m]: Server running on port 3000
+2025-07-05 16:06:40 [[32minfo[39m]: MongoDB Connected...
+2025-07-05 16:08:21 [[31merror[39m]: Error: "expiresIn" should be a number of seconds or string representing a timespan eg: "1d", "20h", 60
+    at module.exports [as sign] (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\jsonwebtoken\sign.js:213:22)
+    at generateToken (C:\Users\GEjr\OneDrive\Desktop\API\src\config\jwt.js:5:14)
+    at generateRefreshToken (C:\Users\GEjr\OneDrive\Desktop\API\src\config\jwt.js:19:37)
+    at login (C:\Users\GEjr\OneDrive\Desktop\API\src\controllers\auth.controller.js:72:30)
+2025-07-05 16:08:21 [[31merror[39m]: Error: "expiresIn" should be a number of seconds or string representing a timespan eg: "1d", "20h", 60
+    at module.exports [as sign] (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\jsonwebtoken\sign.js:213:22)
+    at generateToken (C:\Users\GEjr\OneDrive\Desktop\API\src\config\jwt.js:5:14)
+    at generateRefreshToken (C:\Users\GEjr\OneDrive\Desktop\API\src\config\jwt.js:19:37)
+    at login (C:\Users\GEjr\OneDrive\Desktop\API\src\controllers\auth.controller.js:72:30)
+2025-07-05 16:08:21 [[32minfo[39m]: [0mPOST /api/auth/login [31m500[0m 81.991 ms - 131[0m
+2025-07-05 16:09:49 [[32minfo[39m]: Server running on port 3000
+2025-07-05 16:09:49 [[32minfo[39m]: MongoDB Connected...
+2025-07-05 16:10:07 [[32minfo[39m]: Server running on port 3000
+2025-07-05 16:10:07 [[32minfo[39m]: MongoDB Connected...
+2025-07-05 16:10:24 [[32minfo[39m]: Server running on port 3000
+2025-07-05 16:10:24 [[32minfo[39m]: MongoDB Connected...
+2025-07-05 16:10:40 [[32minfo[39m]: [0mPOST /api/auth/login [32m200[0m 87.370 ms - 503[0m
+2025-07-05 16:14:29 [[32minfo[39m]: [0mGET /api/tasks [33m401[0m 2.521 ms - 98[0m
+2025-07-05 16:15:35 [[32minfo[39m]: [0mPOST /api/auth/refresh-token [33m403[0m 1.200 ms - 66[0m
+2025-07-05 16:16:08 [[32minfo[39m]: [0mPOST /api/auth/login [32m200[0m 62.604 ms - 503[0m
+2025-07-05 16:16:28 [[32minfo[39m]: [0mPOST /api/auth/refresh-token [33m403[0m 0.874 ms - 66[0m
+2025-07-05 16:16:47 [[32minfo[39m]: [0mPOST /api/auth/login [32m200[0m 63.683 ms - 503[0m
+2025-07-05 16:19:15 [[32minfo[39m]: Server running on port 3000
+2025-07-05 16:19:15 [[32minfo[39m]: MongoDB Connected...
+2025-07-05 16:19:24 [[32minfo[39m]: Server running on port 3000
+2025-07-05 16:19:24 [[32minfo[39m]: MongoDB Connected...
+2025-07-05 16:19:49 [[32minfo[39m]: [0mPOST /api/auth/login [32m200[0m 89.222 ms - 503[0m
+2025-07-05 16:20:11 [[32minfo[39m]: [0mPOST /api/auth/refresh-token [33m403[0m 2.332 ms - 66[0m
+2025-07-05 16:20:54 [[32minfo[39m]: Server running on port 3000
+2025-07-05 16:20:54 [[32minfo[39m]: MongoDB Connected...
+2025-07-05 16:21:42 [[32minfo[39m]: Server running on port 3000
+2025-07-05 16:21:42 [[32minfo[39m]: MongoDB Connected...
+2025-07-05 16:21:53 [[32minfo[39m]: Server running on port 3000
+2025-07-05 16:21:53 [[32minfo[39m]: MongoDB Connected...
+2025-07-05 16:22:04 [[32minfo[39m]: Server running on port 3000
+2025-07-05 16:22:04 [[32minfo[39m]: MongoDB Connected...
+2025-07-05 16:23:16 [[32minfo[39m]: Server running on port 3000
+2025-07-05 16:23:16 [[32minfo[39m]: MongoDB Connected...
+2025-07-05 16:23:37 [[32minfo[39m]: [0mPOST /api/auth/login [32m200[0m 88.736 ms - 503[0m
+2025-07-05 16:23:37 [[31merror[39m]: JsonWebTokenError: invalid signature
+    at C:\Users\GEjr\OneDrive\Desktop\API\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyToken (C:\Users\GEjr\OneDrive\Desktop\API\src\config\jwt.js:15:16)
+    at verifyRefreshToken (C:\Users\GEjr\OneDrive\Desktop\API\src\config\jwt.js:24:36)
+    at refresh (C:\Users\GEjr\OneDrive\Desktop\API\src\controllers\auth.controller.js:102:25)
+    at Layer.handleRequest (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\router\index.js:435:11)
+2025-07-05 16:23:37 [[32minfo[39m]: [0mPOST /api/auth/refresh-token [33m403[0m 2.470 ms - 66[0m
+2025-07-05 16:24:49 [[31merror[39m]: JsonWebTokenError: invalid signature
+    at C:\Users\GEjr\OneDrive\Desktop\API\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyToken (C:\Users\GEjr\OneDrive\Desktop\API\src\config\jwt.js:15:16)
+    at verifyRefreshToken (C:\Users\GEjr\OneDrive\Desktop\API\src\config\jwt.js:24:36)
+    at refresh (C:\Users\GEjr\OneDrive\Desktop\API\src\controllers\auth.controller.js:102:25)
+    at Layer.handleRequest (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\router\index.js:435:11)
+2025-07-05 16:24:49 [[32minfo[39m]: [0mPOST /api/auth/refresh-token [33m403[0m 1.407 ms - 66[0m
+2025-07-05 16:26:10 [[32minfo[39m]: Server running on port 3000
+2025-07-05 16:26:10 [[32minfo[39m]: MongoDB Connected...
+2025-07-05 16:26:22 [[32minfo[39m]: Server running on port 3000
+2025-07-05 16:26:22 [[32minfo[39m]: MongoDB Connected...
+2025-07-05 16:26:46 [[32minfo[39m]: [0mPOST /api/auth/register [33m400[0m 9.518 ms - 46[0m
+2025-07-05 16:32:33 [[32minfo[39m]: Server running on port 3000
+2025-07-05 16:32:33 [[32minfo[39m]: MongoDB Connected...
+2025-07-05 16:32:49 [[32minfo[39m]: [0mPOST /api/auth/register [32m201[0m 90.194 ms - 503[0m
+2025-07-05 16:32:50 [[32minfo[39m]: [0mPOST /api/auth/login [32m200[0m 73.182 ms - 503[0m
+2025-07-05 16:32:50 [[31merror[39m]: JsonWebTokenError: invalid signature
+    at C:\Users\GEjr\OneDrive\Desktop\API\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyToken (C:\Users\GEjr\OneDrive\Desktop\API\src\config\jwt.js:15:16)
+    at verifyRefreshToken (C:\Users\GEjr\OneDrive\Desktop\API\src\config\jwt.js:24:36)
+    at refresh (C:\Users\GEjr\OneDrive\Desktop\API\src\controllers\auth.controller.js:102:25)
+    at Layer.handleRequest (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\router\index.js:435:11)
+2025-07-05 16:32:50 [[32minfo[39m]: [0mPOST /api/auth/refresh-token [33m403[0m 2.509 ms - 66[0m
+2025-07-05 16:32:50 [[31merror[39m]: JsonWebTokenError: invalid signature
+    at C:\Users\GEjr\OneDrive\Desktop\API\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyToken (C:\Users\GEjr\OneDrive\Desktop\API\src\config\jwt.js:15:16)
+    at verifyRefreshToken (C:\Users\GEjr\OneDrive\Desktop\API\src\config\jwt.js:24:36)
+    at refresh (C:\Users\GEjr\OneDrive\Desktop\API\src\controllers\auth.controller.js:102:25)
+    at Layer.handleRequest (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\router\index.js:435:11)
+2025-07-05 16:32:50 [[32minfo[39m]: [0mPOST /api/auth/refresh-token [33m403[0m 1.623 ms - 66[0m
+2025-07-05 16:37:05 [[32minfo[39m]: Server running on port 3000
+2025-07-05 16:37:05 [[32minfo[39m]: MongoDB Connected...
+2025-07-05 16:37:28 [[32minfo[39m]: [0mPOST /api/auth/register [33m400[0m 9.628 ms - 46[0m
+2025-07-05 16:37:29 [[32minfo[39m]: [0mPOST /api/auth/login [32m200[0m 80.366 ms - 503[0m
+2025-07-05 16:37:29 [[31merror[39m]: JsonWebTokenError: invalid signature
+    at C:\Users\GEjr\OneDrive\Desktop\API\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyToken (C:\Users\GEjr\OneDrive\Desktop\API\src\config\jwt.js:15:16)
+    at verifyRefreshToken (C:\Users\GEjr\OneDrive\Desktop\API\src\config\jwt.js:24:36)
+    at refresh (C:\Users\GEjr\OneDrive\Desktop\API\src\controllers\auth.controller.js:102:25)
+    at Layer.handleRequest (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\router\index.js:435:11)
+2025-07-05 16:37:29 [[32minfo[39m]: [0mPOST /api/auth/refresh-token [33m403[0m 2.388 ms - 66[0m
+2025-07-05 16:37:30 [[31merror[39m]: JsonWebTokenError: invalid signature
+    at C:\Users\GEjr\OneDrive\Desktop\API\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\jsonwebtoken\verify.js:101:10)
+    at verifyToken (C:\Users\GEjr\OneDrive\Desktop\API\src\config\jwt.js:15:16)
+    at verifyRefreshToken (C:\Users\GEjr\OneDrive\Desktop\API\src\config\jwt.js:24:36)
+    at refresh (C:\Users\GEjr\OneDrive\Desktop\API\src\controllers\auth.controller.js:102:25)
+    at Layer.handleRequest (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\router\lib\route.js:117:3)
+    at handle (C:\Users\GEjr\OneDrive\Desktop\API\node_modules\router\index.js:435:11)
+2025-07-05 16:37:30 [[32minfo[39m]: [0mPOST /api/auth/refresh-token [33m403[0m 1.578 ms - 66[0m
